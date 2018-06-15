@@ -12,6 +12,7 @@
 {
     NSMutableArray *currentArrayforSection3;
 }
+@property (weak, nonatomic) IBOutlet UILabel *labelForWhoWeAre;
 
 @end
 
@@ -19,6 +20,7 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    self.title=@"SoftRockGroup";
     currentArrayforSection3=[[NSMutableArray alloc]init];
     // Do any additional setup after loading the view.
 }
@@ -41,11 +43,16 @@
         {
             self->currentArrayforSection3=json1;
             NSDictionary *dic=self->currentArrayforSection3[8];
-            NSString *temp=[dic objectForKey:@"option_value"];
             
+          
+            NSString *temp=[dic objectForKey:@"option_value"];
+           
             
             dispatch_async(dispatch_get_main_queue(), ^{
-                 
+                
+                  self->_labelForWhoWeAre.lineBreakMode = NSLineBreakByWordWrapping;
+                  self->_labelForWhoWeAre.numberOfLines = 0;
+                  self->_labelForWhoWeAre.text=temp;
             });
             
         }
@@ -63,4 +70,8 @@
 }
 */
 
+- (IBAction)gotoDissmissViewController:(id)sender {
+    [self dismissViewControllerAnimated:YES completion:nil];
+    
+}
 @end

@@ -10,4 +10,6 @@
 
 @interface AboutUsViewController : ViewController
 
+- (IBAction)gotoDissmissViewController:(id)sender;
+
 @end
