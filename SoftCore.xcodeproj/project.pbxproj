@@ -1,0 +1,838 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8397E5235B8B531068C1B4E6 /* libPods-SoftCoreTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 58CAEF9466952A923B8CD4D3 /* libPods-SoftCoreTests.a */; };
+		8ED1173B0A54DE5521BEC9CE /* libPods-SoftCore.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D8ADD4C329FB56E01CD634A /* libPods-SoftCore.a */; };
+		CE09743E20B8FE3100D98438 /* placeholder.png in Resources */ = {isa = PBXBuildFile; fileRef = CE09743D20B8FE3100D98438 /* placeholder.png */; };
+		CE150BF220B833CC00035B4F /* InformationCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CE150BF120B833CC00035B4F /* InformationCollectionViewCell.m */; };
+		CE1C93CE20C0B79300F7FB11 /* CustomTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = CE1C93CD20C0B79300F7FB11 /* CustomTabBar.m */; };
+		CE2641AB20C95D2600A55CA6 /* SearchBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE2641AA20C95D2600A55CA6 /* SearchBarViewController.m */; };
+		CE27E64F20C8597F0026688E /* Store.m in Sources */ = {isa = PBXBuildFile; fileRef = CE27E64E20C8597F0026688E /* Store.m */; };
+		CE2E1EA320B5ABD400C978E5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CE2E1EA220B5ABD400C978E5 /* AppDelegate.m */; };
+		CE2E1EA620B5ABD400C978E5 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE2E1EA520B5ABD400C978E5 /* ViewController.m */; };
+		CE2E1EAB20B5ABD600C978E5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE2E1EAA20B5ABD600C978E5 /* Assets.xcassets */; };
+		CE2E1EAE20B5ABD600C978E5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE2E1EAC20B5ABD600C978E5 /* LaunchScreen.storyboard */; };
+		CE2E1EB120B5ABD700C978E5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CE2E1EB020B5ABD700C978E5 /* main.m */; };
+		CE2E1EBB20B5ABD700C978E5 /* SoftCoreTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CE2E1EBA20B5ABD700C978E5 /* SoftCoreTests.m */; };
+		CE2E1EC620B5ABD700C978E5 /* SoftCoreUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = CE2E1EC520B5ABD700C978E5 /* SoftCoreUITests.m */; };
+		CE2E1ED620B5AD8C00C978E5 /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE2E1ED520B5AD8C00C978E5 /* SWRevealViewController.m */; };
+		CE2E1ED920B5ADBF00C978E5 /* OptionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE2E1ED720B5ADBF00C978E5 /* OptionViewController.m */; };
+		CE2E1EDC20B5AE7F00C978E5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE2E1EDB20B5AE7F00C978E5 /* Main.storyboard */; };
+		CE2E1EDF20B5AEBA00C978E5 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE2E1EDE20B5AEBA00C978E5 /* MainViewController.m */; };
+		CE365B0F20C65CEC002ADF22 /* OderClassViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE365B0E20C65CEC002ADF22 /* OderClassViewController.m */; };
+		CE438EC720D2C07E00AD8FFA /* AddToCraftViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE438EC620D2C07E00AD8FFA /* AddToCraftViewController.m */; };
+		CE52B63020BDE3E100B4BA64 /* HotListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE52B62F20BDE3E100B4BA64 /* HotListViewController.m */; };
+		CE52B63320BDE40F00B4BA64 /* WishListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE52B63220BDE40F00B4BA64 /* WishListViewController.m */; };
+		CE52E2F820BF12CB00AB7DD9 /* InformationContainerTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CE52E2F720BF12CB00AB7DD9 /* InformationContainerTableViewCell.m */; };
+		CE66AAF320CAE55F000C634F /* AboutUsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE66AAF220CAE55F000C634F /* AboutUsViewController.m */; };
+		CE66AAF620CB0619000C634F /* ShopListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE66AAF520CB0619000C634F /* ShopListViewController.m */; };
+		CE868E1520C30A7100C7357F /* CommonViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE868E1420C30A7100C7357F /* CommonViewController.m */; };
+		CE93FBD720C496E800A4EFCB /* PreviewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE93FBD620C496E800A4EFCB /* PreviewViewController.m */; };
+		CEF23C1620D18AA400F1DFB8 /* SVHTTPClient.m in Sources */ = {isa = PBXBuildFile; fileRef = CEF23C1220D18AA400F1DFB8 /* SVHTTPClient.m */; };
+		CEF23C1720D18AA400F1DFB8 /* SVHTTPRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = CEF23C1320D18AA400F1DFB8 /* SVHTTPRequest.m */; };
+		CEF985D020B9B3C600867D74 /* navigation.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CEF985CF20B9B3C600867D74 /* navigation.jpg */; };
+		FEB9CFA1FB1ADF331967DE04 /* libPods-SoftCoreUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5969812E824657EC2B04352F /* libPods-SoftCoreUITests.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CE2E1EB720B5ABD700C978E5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CE2E1E9620B5ABD400C978E5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CE2E1E9D20B5ABD400C978E5;
+			remoteInfo = SoftCore;
+		};
+		CE2E1EC220B5ABD700C978E5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CE2E1E9620B5ABD400C978E5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CE2E1E9D20B5ABD400C978E5;
+			remoteInfo = SoftCore;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3892B92F673D28CCEEC2BF50 /* Pods-SoftCore.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SoftCore.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SoftCore/Pods-SoftCore.debug.xcconfig"; sourceTree = "<group>"; };
+		4D8ADD4C329FB56E01CD634A /* libPods-SoftCore.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SoftCore.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		584C106D7A2BEFD67EFDB2CA /* Pods-SoftCore.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SoftCore.release.xcconfig"; path = "Pods/Target Support Files/Pods-SoftCore/Pods-SoftCore.release.xcconfig"; sourceTree = "<group>"; };
+		58CAEF9466952A923B8CD4D3 /* libPods-SoftCoreTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SoftCoreTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5969812E824657EC2B04352F /* libPods-SoftCoreUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SoftCoreUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8C7B0836A4EFDE9EDF1AD94F /* Pods-SoftCoreTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SoftCoreTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SoftCoreTests/Pods-SoftCoreTests.release.xcconfig"; sourceTree = "<group>"; };
+		9AAAE9E868E7E50E8F6FF758 /* Pods-SoftCoreTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SoftCoreTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SoftCoreTests/Pods-SoftCoreTests.debug.xcconfig"; sourceTree = "<group>"; };
+		BEC8F00CE4D961E2E5FAC190 /* Pods-SoftCoreUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SoftCoreUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SoftCoreUITests/Pods-SoftCoreUITests.release.xcconfig"; sourceTree = "<group>"; };
+		CE09743D20B8FE3100D98438 /* placeholder.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = placeholder.png; sourceTree = "<group>"; };
+		CE150BF020B833CC00035B4F /* InformationCollectionViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = InformationCollectionViewCell.h; sourceTree = "<group>"; };
+		CE150BF120B833CC00035B4F /* InformationCollectionViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = InformationCollectionViewCell.m; sourceTree = "<group>"; };
+		CE1C93CC20C0B79300F7FB11 /* CustomTabBar.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CustomTabBar.h; sourceTree = "<group>"; };
+		CE1C93CD20C0B79300F7FB11 /* CustomTabBar.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CustomTabBar.m; sourceTree = "<group>"; };
+		CE2641A920C95D2600A55CA6 /* SearchBarViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SearchBarViewController.h; sourceTree = "<group>"; };
+		CE2641AA20C95D2600A55CA6 /* SearchBarViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SearchBarViewController.m; sourceTree = "<group>"; };
+		CE27E64D20C8597F0026688E /* Store.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Store.h; sourceTree = "<group>"; };
+		CE27E64E20C8597F0026688E /* Store.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Store.m; sourceTree = "<group>"; };
+		CE2E1E9E20B5ABD400C978E5 /* SoftCore.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SoftCore.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE2E1EA120B5ABD400C978E5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		CE2E1EA220B5ABD400C978E5 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		CE2E1EA420B5ABD400C978E5 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		CE2E1EA520B5ABD400C978E5 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		CE2E1EAA20B5ABD600C978E5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CE2E1EAD20B5ABD600C978E5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CE2E1EAF20B5ABD700C978E5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CE2E1EB020B5ABD700C978E5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CE2E1EB620B5ABD700C978E5 /* SoftCoreTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SoftCoreTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE2E1EBA20B5ABD700C978E5 /* SoftCoreTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SoftCoreTests.m; sourceTree = "<group>"; };
+		CE2E1EBC20B5ABD700C978E5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CE2E1EC120B5ABD700C978E5 /* SoftCoreUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SoftCoreUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE2E1EC520B5ABD700C978E5 /* SoftCoreUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SoftCoreUITests.m; sourceTree = "<group>"; };
+		CE2E1EC720B5ABD700C978E5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CE2E1ED420B5AD8C00C978E5 /* SWRevealViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWRevealViewController.h; sourceTree = "<group>"; };
+		CE2E1ED520B5AD8C00C978E5 /* SWRevealViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWRevealViewController.m; sourceTree = "<group>"; };
+		CE2E1ED720B5ADBF00C978E5 /* OptionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OptionViewController.m; sourceTree = "<group>"; };
+		CE2E1ED820B5ADBF00C978E5 /* OptionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OptionViewController.h; sourceTree = "<group>"; };
+		CE2E1EDB20B5AE7F00C978E5 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		CE2E1EDD20B5AEB700C978E5 /* MainViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		CE2E1EDE20B5AEBA00C978E5 /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		CE365B0D20C65CEC002ADF22 /* OderClassViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OderClassViewController.h; sourceTree = "<group>"; };
+		CE365B0E20C65CEC002ADF22 /* OderClassViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OderClassViewController.m; sourceTree = "<group>"; };
+		CE438EC520D2C07E00AD8FFA /* AddToCraftViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AddToCraftViewController.h; sourceTree = "<group>"; };
+		CE438EC620D2C07E00AD8FFA /* AddToCraftViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AddToCraftViewController.m; sourceTree = "<group>"; };
+		CE52B62E20BDE3E100B4BA64 /* HotListViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HotListViewController.h; sourceTree = "<group>"; };
+		CE52B62F20BDE3E100B4BA64 /* HotListViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HotListViewController.m; sourceTree = "<group>"; };
+		CE52B63120BDE40F00B4BA64 /* WishListViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WishListViewController.h; sourceTree = "<group>"; };
+		CE52B63220BDE40F00B4BA64 /* WishListViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WishListViewController.m; sourceTree = "<group>"; };
+		CE52E2F620BF12CB00AB7DD9 /* InformationContainerTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = InformationContainerTableViewCell.h; sourceTree = "<group>"; };
+		CE52E2F720BF12CB00AB7DD9 /* InformationContainerTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = InformationContainerTableViewCell.m; sourceTree = "<group>"; };
+		CE66AAF120CAE55F000C634F /* AboutUsViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AboutUsViewController.h; sourceTree = "<group>"; };
+		CE66AAF220CAE55F000C634F /* AboutUsViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AboutUsViewController.m; sourceTree = "<group>"; };
+		CE66AAF420CB0619000C634F /* ShopListViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ShopListViewController.h; sourceTree = "<group>"; };
+		CE66AAF520CB0619000C634F /* ShopListViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ShopListViewController.m; sourceTree = "<group>"; };
+		CE868E1320C30A7100C7357F /* CommonViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CommonViewController.h; sourceTree = "<group>"; };
+		CE868E1420C30A7100C7357F /* CommonViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CommonViewController.m; sourceTree = "<group>"; };
+		CE93FBD520C496E800A4EFCB /* PreviewViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PreviewViewController.h; sourceTree = "<group>"; };
+		CE93FBD620C496E800A4EFCB /* PreviewViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PreviewViewController.m; sourceTree = "<group>"; };
+		CEF23C1220D18AA400F1DFB8 /* SVHTTPClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SVHTTPClient.m; sourceTree = "<group>"; };
+		CEF23C1320D18AA400F1DFB8 /* SVHTTPRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SVHTTPRequest.m; sourceTree = "<group>"; };
+		CEF23C1420D18AA400F1DFB8 /* SVHTTPRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SVHTTPRequest.h; sourceTree = "<group>"; };
+		CEF23C1520D18AA400F1DFB8 /* SVHTTPClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SVHTTPClient.h; sourceTree = "<group>"; };
+		CEF985CF20B9B3C600867D74 /* navigation.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = navigation.jpg; sourceTree = "<group>"; };
+		DCEE761DC1CBED87189B6FF3 /* Pods-SoftCoreUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SoftCoreUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SoftCoreUITests/Pods-SoftCoreUITests.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CE2E1E9B20B5ABD400C978E5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8ED1173B0A54DE5521BEC9CE /* libPods-SoftCore.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE2E1EB320B5ABD700C978E5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8397E5235B8B531068C1B4E6 /* libPods-SoftCoreTests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE2E1EBE20B5ABD700C978E5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FEB9CFA1FB1ADF331967DE04 /* libPods-SoftCoreUITests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		702790E82CC1995BA83EBC28 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3892B92F673D28CCEEC2BF50 /* Pods-SoftCore.debug.xcconfig */,
+				584C106D7A2BEFD67EFDB2CA /* Pods-SoftCore.release.xcconfig */,
+				9AAAE9E868E7E50E8F6FF758 /* Pods-SoftCoreTests.debug.xcconfig */,
+				8C7B0836A4EFDE9EDF1AD94F /* Pods-SoftCoreTests.release.xcconfig */,
+				DCEE761DC1CBED87189B6FF3 /* Pods-SoftCoreUITests.debug.xcconfig */,
+				BEC8F00CE4D961E2E5FAC190 /* Pods-SoftCoreUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		B98B6F1C0B7034B2185B240D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4D8ADD4C329FB56E01CD634A /* libPods-SoftCore.a */,
+				58CAEF9466952A923B8CD4D3 /* libPods-SoftCoreTests.a */,
+				5969812E824657EC2B04352F /* libPods-SoftCoreUITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CE09743C20B8FD8E00D98438 /* Image */ = {
+			isa = PBXGroup;
+			children = (
+				CEF985CF20B9B3C600867D74 /* navigation.jpg */,
+				CE09743D20B8FE3100D98438 /* placeholder.png */,
+			);
+			path = Image;
+			sourceTree = "<group>";
+		};
+		CE2B7D9920B7934500C4A706 /* CellContainerClass */ = {
+			isa = PBXGroup;
+			children = (
+				CE150BF020B833CC00035B4F /* InformationCollectionViewCell.h */,
+				CE150BF120B833CC00035B4F /* InformationCollectionViewCell.m */,
+				CE52E2F620BF12CB00AB7DD9 /* InformationContainerTableViewCell.h */,
+				CE52E2F720BF12CB00AB7DD9 /* InformationContainerTableViewCell.m */,
+			);
+			path = CellContainerClass;
+			sourceTree = "<group>";
+		};
+		CE2E1E9520B5ABD400C978E5 = {
+			isa = PBXGroup;
+			children = (
+				CEF23C1120D18AA400F1DFB8 /* SVHTTPRequest */,
+				CE2E1EA020B5ABD400C978E5 /* SoftCore */,
+				CE2E1EB920B5ABD700C978E5 /* SoftCoreTests */,
+				CE2E1EC420B5ABD700C978E5 /* SoftCoreUITests */,
+				CE2E1E9F20B5ABD400C978E5 /* Products */,
+				702790E82CC1995BA83EBC28 /* Pods */,
+				B98B6F1C0B7034B2185B240D /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		CE2E1E9F20B5ABD400C978E5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CE2E1E9E20B5ABD400C978E5 /* SoftCore.app */,
+				CE2E1EB620B5ABD700C978E5 /* SoftCoreTests.xctest */,
+				CE2E1EC120B5ABD700C978E5 /* SoftCoreUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CE2E1EA020B5ABD400C978E5 /* SoftCore */ = {
+			isa = PBXGroup;
+			children = (
+				CE09743C20B8FD8E00D98438 /* Image */,
+				CE2B7D9920B7934500C4A706 /* CellContainerClass */,
+				CE2E1EDA20B5AE7400C978E5 /* StoryBoard */,
+				CE2E1ED320B5ACCF00C978E5 /* ViewController */,
+				CE2E1EA120B5ABD400C978E5 /* AppDelegate.h */,
+				CE2E1EA220B5ABD400C978E5 /* AppDelegate.m */,
+				CE2E1EA420B5ABD400C978E5 /* ViewController.h */,
+				CE2E1EA520B5ABD400C978E5 /* ViewController.m */,
+				CE2E1EAA20B5ABD600C978E5 /* Assets.xcassets */,
+				CE2E1EAC20B5ABD600C978E5 /* LaunchScreen.storyboard */,
+				CE2E1EAF20B5ABD700C978E5 /* Info.plist */,
+				CE2E1EB020B5ABD700C978E5 /* main.m */,
+				CE27E64D20C8597F0026688E /* Store.h */,
+				CE27E64E20C8597F0026688E /* Store.m */,
+				CE2641A920C95D2600A55CA6 /* SearchBarViewController.h */,
+				CE2641AA20C95D2600A55CA6 /* SearchBarViewController.m */,
+			);
+			path = SoftCore;
+			sourceTree = "<group>";
+		};
+		CE2E1EB920B5ABD700C978E5 /* SoftCoreTests */ = {
+			isa = PBXGroup;
+			children = (
+				CE2E1EBA20B5ABD700C978E5 /* SoftCoreTests.m */,
+				CE2E1EBC20B5ABD700C978E5 /* Info.plist */,
+			);
+			path = SoftCoreTests;
+			sourceTree = "<group>";
+		};
+		CE2E1EC420B5ABD700C978E5 /* SoftCoreUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CE2E1EC520B5ABD700C978E5 /* SoftCoreUITests.m */,
+				CE2E1EC720B5ABD700C978E5 /* Info.plist */,
+			);
+			path = SoftCoreUITests;
+			sourceTree = "<group>";
+		};
+		CE2E1ED320B5ACCF00C978E5 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				CE2E1EDD20B5AEB700C978E5 /* MainViewController.h */,
+				CE2E1EDE20B5AEBA00C978E5 /* MainViewController.m */,
+				CE2E1ED420B5AD8C00C978E5 /* SWRevealViewController.h */,
+				CE2E1ED520B5AD8C00C978E5 /* SWRevealViewController.m */,
+				CE2E1ED820B5ADBF00C978E5 /* OptionViewController.h */,
+				CE2E1ED720B5ADBF00C978E5 /* OptionViewController.m */,
+				CE52B62E20BDE3E100B4BA64 /* HotListViewController.h */,
+				CE52B62F20BDE3E100B4BA64 /* HotListViewController.m */,
+				CE52B63120BDE40F00B4BA64 /* WishListViewController.h */,
+				CE52B63220BDE40F00B4BA64 /* WishListViewController.m */,
+				CE1C93CC20C0B79300F7FB11 /* CustomTabBar.h */,
+				CE1C93CD20C0B79300F7FB11 /* CustomTabBar.m */,
+				CE868E1320C30A7100C7357F /* CommonViewController.h */,
+				CE868E1420C30A7100C7357F /* CommonViewController.m */,
+				CE93FBD520C496E800A4EFCB /* PreviewViewController.h */,
+				CE93FBD620C496E800A4EFCB /* PreviewViewController.m */,
+				CE365B0D20C65CEC002ADF22 /* OderClassViewController.h */,
+				CE365B0E20C65CEC002ADF22 /* OderClassViewController.m */,
+				CE66AAF120CAE55F000C634F /* AboutUsViewController.h */,
+				CE66AAF220CAE55F000C634F /* AboutUsViewController.m */,
+				CE66AAF420CB0619000C634F /* ShopListViewController.h */,
+				CE66AAF520CB0619000C634F /* ShopListViewController.m */,
+				CE438EC520D2C07E00AD8FFA /* AddToCraftViewController.h */,
+				CE438EC620D2C07E00AD8FFA /* AddToCraftViewController.m */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		CE2E1EDA20B5AE7400C978E5 /* StoryBoard */ = {
+			isa = PBXGroup;
+			children = (
+				CE2E1EDB20B5AE7F00C978E5 /* Main.storyboard */,
+			);
+			path = StoryBoard;
+			sourceTree = "<group>";
+		};
+		CEF23C1120D18AA400F1DFB8 /* SVHTTPRequest */ = {
+			isa = PBXGroup;
+			children = (
+				CEF23C1220D18AA400F1DFB8 /* SVHTTPClient.m */,
+				CEF23C1320D18AA400F1DFB8 /* SVHTTPRequest.m */,
+				CEF23C1420D18AA400F1DFB8 /* SVHTTPRequest.h */,
+				CEF23C1520D18AA400F1DFB8 /* SVHTTPClient.h */,
+			);
+			path = SVHTTPRequest;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CE2E1E9D20B5ABD400C978E5 /* SoftCore */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CE2E1ECA20B5ABD700C978E5 /* Build configuration list for PBXNativeTarget "SoftCore" */;
+			buildPhases = (
+				870E5290C8F9D172648FC824 /* [CP] Check Pods Manifest.lock */,
+				CE2E1E9A20B5ABD400C978E5 /* Sources */,
+				CE2E1E9B20B5ABD400C978E5 /* Frameworks */,
+				CE2E1E9C20B5ABD400C978E5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SoftCore;
+			productName = SoftCore;
+			productReference = CE2E1E9E20B5ABD400C978E5 /* SoftCore.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CE2E1EB520B5ABD700C978E5 /* SoftCoreTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CE2E1ECD20B5ABD700C978E5 /* Build configuration list for PBXNativeTarget "SoftCoreTests" */;
+			buildPhases = (
+				1B4DD9056A2D103D339C7F0A /* [CP] Check Pods Manifest.lock */,
+				CE2E1EB220B5ABD700C978E5 /* Sources */,
+				CE2E1EB320B5ABD700C978E5 /* Frameworks */,
+				CE2E1EB420B5ABD700C978E5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CE2E1EB820B5ABD700C978E5 /* PBXTargetDependency */,
+			);
+			name = SoftCoreTests;
+			productName = SoftCoreTests;
+			productReference = CE2E1EB620B5ABD700C978E5 /* SoftCoreTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CE2E1EC020B5ABD700C978E5 /* SoftCoreUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CE2E1ED020B5ABD700C978E5 /* Build configuration list for PBXNativeTarget "SoftCoreUITests" */;
+			buildPhases = (
+				74D1886DFD8AD43D743B08DE /* [CP] Check Pods Manifest.lock */,
+				CE2E1EBD20B5ABD700C978E5 /* Sources */,
+				CE2E1EBE20B5ABD700C978E5 /* Frameworks */,
+				CE2E1EBF20B5ABD700C978E5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CE2E1EC320B5ABD700C978E5 /* PBXTargetDependency */,
+			);
+			name = SoftCoreUITests;
+			productName = SoftCoreUITests;
+			productReference = CE2E1EC120B5ABD700C978E5 /* SoftCoreUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CE2E1E9620B5ABD400C978E5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = "MacBook Pro Retina";
+				TargetAttributes = {
+					CE2E1E9D20B5ABD400C978E5 = {
+						CreatedOnToolsVersion = 9.3;
+					};
+					CE2E1EB520B5ABD700C978E5 = {
+						CreatedOnToolsVersion = 9.3;
+						TestTargetID = CE2E1E9D20B5ABD400C978E5;
+					};
+					CE2E1EC020B5ABD700C978E5 = {
+						CreatedOnToolsVersion = 9.3;
+						TestTargetID = CE2E1E9D20B5ABD400C978E5;
+					};
+				};
+			};
+			buildConfigurationList = CE2E1E9920B5ABD400C978E5 /* Build configuration list for PBXProject "SoftCore" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CE2E1E9520B5ABD400C978E5;
+			productRefGroup = CE2E1E9F20B5ABD400C978E5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CE2E1E9D20B5ABD400C978E5 /* SoftCore */,
+				CE2E1EB520B5ABD700C978E5 /* SoftCoreTests */,
+				CE2E1EC020B5ABD700C978E5 /* SoftCoreUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CE2E1E9C20B5ABD400C978E5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE2E1EDC20B5AE7F00C978E5 /* Main.storyboard in Resources */,
+				CE2E1EAE20B5ABD600C978E5 /* LaunchScreen.storyboard in Resources */,
+				CE09743E20B8FE3100D98438 /* placeholder.png in Resources */,
+				CEF985D020B9B3C600867D74 /* navigation.jpg in Resources */,
+				CE2E1EAB20B5ABD600C978E5 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE2E1EB420B5ABD700C978E5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE2E1EBF20B5ABD700C978E5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1B4DD9056A2D103D339C7F0A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SoftCoreTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		74D1886DFD8AD43D743B08DE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SoftCoreUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		870E5290C8F9D172648FC824 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SoftCore-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CE2E1E9A20B5ABD400C978E5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEF23C1720D18AA400F1DFB8 /* SVHTTPRequest.m in Sources */,
+				CE93FBD720C496E800A4EFCB /* PreviewViewController.m in Sources */,
+				CE52B63020BDE3E100B4BA64 /* HotListViewController.m in Sources */,
+				CE52B63320BDE40F00B4BA64 /* WishListViewController.m in Sources */,
+				CE27E64F20C8597F0026688E /* Store.m in Sources */,
+				CE66AAF320CAE55F000C634F /* AboutUsViewController.m in Sources */,
+				CE52E2F820BF12CB00AB7DD9 /* InformationContainerTableViewCell.m in Sources */,
+				CE2E1EA620B5ABD400C978E5 /* ViewController.m in Sources */,
+				CE150BF220B833CC00035B4F /* InformationCollectionViewCell.m in Sources */,
+				CE868E1520C30A7100C7357F /* CommonViewController.m in Sources */,
+				CE365B0F20C65CEC002ADF22 /* OderClassViewController.m in Sources */,
+				CE66AAF620CB0619000C634F /* ShopListViewController.m in Sources */,
+				CE2E1EDF20B5AEBA00C978E5 /* MainViewController.m in Sources */,
+				CE2E1EB120B5ABD700C978E5 /* main.m in Sources */,
+				CE2E1EA320B5ABD400C978E5 /* AppDelegate.m in Sources */,
+				CE2E1ED620B5AD8C00C978E5 /* SWRevealViewController.m in Sources */,
+				CE2E1ED920B5ADBF00C978E5 /* OptionViewController.m in Sources */,
+				CE438EC720D2C07E00AD8FFA /* AddToCraftViewController.m in Sources */,
+				CE2641AB20C95D2600A55CA6 /* SearchBarViewController.m in Sources */,
+				CEF23C1620D18AA400F1DFB8 /* SVHTTPClient.m in Sources */,
+				CE1C93CE20C0B79300F7FB11 /* CustomTabBar.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE2E1EB220B5ABD700C978E5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE2E1EBB20B5ABD700C978E5 /* SoftCoreTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE2E1EBD20B5ABD700C978E5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE2E1EC620B5ABD700C978E5 /* SoftCoreUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CE2E1EB820B5ABD700C978E5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CE2E1E9D20B5ABD400C978E5 /* SoftCore */;
+			targetProxy = CE2E1EB720B5ABD700C978E5 /* PBXContainerItemProxy */;
+		};
+		CE2E1EC320B5ABD700C978E5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CE2E1E9D20B5ABD400C978E5 /* SoftCore */;
+			targetProxy = CE2E1EC220B5ABD700C978E5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CE2E1EAC20B5ABD600C978E5 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CE2E1EAD20B5ABD600C978E5 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CE2E1EC820B5ABD700C978E5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		CE2E1EC920B5ABD700C978E5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CE2E1ECB20B5ABD700C978E5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3892B92F673D28CCEEC2BF50 /* Pods-SoftCore.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Q54Y49V73N;
+				INFOPLIST_FILE = SoftCore/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = sadiq;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CE2E1ECC20B5ABD700C978E5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 584C106D7A2BEFD67EFDB2CA /* Pods-SoftCore.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Q54Y49V73N;
+				INFOPLIST_FILE = SoftCore/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = sadiq;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		CE2E1ECE20B5ABD700C978E5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9AAAE9E868E7E50E8F6FF758 /* Pods-SoftCoreTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Q54Y49V73N;
+				INFOPLIST_FILE = SoftCoreTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = SadiqulAmin.SoftCoreTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SoftCore.app/SoftCore";
+			};
+			name = Debug;
+		};
+		CE2E1ECF20B5ABD700C978E5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8C7B0836A4EFDE9EDF1AD94F /* Pods-SoftCoreTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Q54Y49V73N;
+				INFOPLIST_FILE = SoftCoreTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = SadiqulAmin.SoftCoreTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SoftCore.app/SoftCore";
+			};
+			name = Release;
+		};
+		CE2E1ED120B5ABD700C978E5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DCEE761DC1CBED87189B6FF3 /* Pods-SoftCoreUITests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SoftCoreUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = SadiqulAmin.SoftCoreUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SoftCore;
+			};
+			name = Debug;
+		};
+		CE2E1ED220B5ABD700C978E5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BEC8F00CE4D961E2E5FAC190 /* Pods-SoftCoreUITests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SoftCoreUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = SadiqulAmin.SoftCoreUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SoftCore;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CE2E1E9920B5ABD400C978E5 /* Build configuration list for PBXProject "SoftCore" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE2E1EC820B5ABD700C978E5 /* Debug */,
+				CE2E1EC920B5ABD700C978E5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CE2E1ECA20B5ABD700C978E5 /* Build configuration list for PBXNativeTarget "SoftCore" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE2E1ECB20B5ABD700C978E5 /* Debug */,
+				CE2E1ECC20B5ABD700C978E5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CE2E1ECD20B5ABD700C978E5 /* Build configuration list for PBXNativeTarget "SoftCoreTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE2E1ECE20B5ABD700C978E5 /* Debug */,
+				CE2E1ECF20B5ABD700C978E5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CE2E1ED020B5ABD700C978E5 /* Build configuration list for PBXNativeTarget "SoftCoreUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE2E1ED120B5ABD700C978E5 /* Debug */,
+				CE2E1ED220B5ABD700C978E5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CE2E1E9620B5ABD400C978E5 /* Project object */;
+}
