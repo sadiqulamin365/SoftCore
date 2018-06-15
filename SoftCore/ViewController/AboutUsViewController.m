@@ -13,6 +13,7 @@
     NSMutableArray *currentArrayforSection3;
 }
 @property (weak, nonatomic) IBOutlet UILabel *labelForWhoWeAre;
+@property (weak, nonatomic) IBOutlet UILabel *labelForMissonAndVisson;
 
 @end
 
@@ -43,16 +44,47 @@
         {
             self->currentArrayforSection3=json1;
             NSDictionary *dic=self->currentArrayforSection3[8];
+            NSDictionary *dic1=self->currentArrayforSection3[9];
             
           
             NSString *temp=[dic objectForKey:@"option_value"];
-           
+            temp=[temp stringByReplacingOccurrencesOfString:@"<p>" withString:@""];
+            temp=[temp stringByReplacingOccurrencesOfString:@"</p>" withString:@""];
+            
+            
+            
+             temp=[temp stringByReplacingOccurrencesOfString:@"</b>" withString:@""];
+            temp=[temp stringByReplacingOccurrencesOfString:@"<b>" withString:@""];
+            
+            
+             temp=[temp stringByReplacingOccurrencesOfString:@"<br>" withString:@""];
+            
+            
+            
+            
+            NSString *temp1=[dic1 objectForKey:@"option_value"];
+            temp1=[temp1 stringByReplacingOccurrencesOfString:@"<p>" withString:@""];
+            temp1=[temp1 stringByReplacingOccurrencesOfString:@"</p>" withString:@""];
+            
+            
+            
+            temp1=[temp1 stringByReplacingOccurrencesOfString:@"</b>" withString:@""];
+            temp1=[temp1 stringByReplacingOccurrencesOfString:@"<b>" withString:@""];
+            
+        
             
             dispatch_async(dispatch_get_main_queue(), ^{
                 
                   self->_labelForWhoWeAre.lineBreakMode = NSLineBreakByWordWrapping;
                   self->_labelForWhoWeAre.numberOfLines = 0;
                   self->_labelForWhoWeAre.text=temp;
+                
+                
+                self->_labelForMissonAndVisson.lineBreakMode = NSLineBreakByWordWrapping;
+                self->_labelForMissonAndVisson.numberOfLines = 0;
+                self->_labelForMissonAndVisson.text=temp1;
+                
+                
             });
             
         }

@@ -14,6 +14,9 @@
 
 
 @interface OderClassViewController ()
+{
+
+}
 
 @end
 
@@ -37,6 +40,10 @@
     _LASTProduct.text=[NSString stringWithFormat:@"%@%@",@"Amount : ",_price];
     [_LASTProduct setFont:[UIFont systemFontOfSize:12]];
     
+    _textView1.delegate=self;
+     _textView2.delegate=self;
+     _textView3.delegate=self;
+     _textView4.delegate=self;
     
     //
     //    UITapGestureRecognizer *tapRecognizer = [[UITapGestureRecognizer alloc] initWithTarget:self action:@selector(gestureHandlerMethod:)];
@@ -70,6 +77,27 @@
     }
     
     _topSpaceTomainView.constant=0;
+    if(_textView1.text.length==0)
+    {
+        _textView1.text=@"Enter Your Name";
+    }
+    if(_textView2.text.length==0)
+    {
+        {
+            _textView2.text=@"Enter Your Mail";
+        }
+        if(_textView3.text.length==0)
+            
+        {
+            _textView3.text=@"Enter Your Number";
+        }
+        if(_textView4.text.length==0)
+            
+        {
+            _textView4.text=@"Enter Your Address";
+        }
+        
+    }
 }
 
 #pragma mark - Gesture recognizer delegate
@@ -123,7 +151,12 @@
     
     NSMutableDictionary *parameters =  [[NSMutableDictionary alloc]init];
     
-    [parameters setValue:@"sadiq" forKey:@"name"];
+    [parameters setValue:_textView1.text forKey:@"name"];
+    [parameters setValue:_textView2.text forKey:@"email"];
+    [parameters setValue:_textView3.text forKey:@"number"];
+    [parameters setValue:_textView4.text forKey:@"address"];
+    [parameters setObject:_labelText.text forKey:_dressName.text];
+    
     
     [manager POST:@"https://www.softrockgroup.com/single_product_order" parameters:parameters success:^(NSURLSessionDataTask *task, id responseObject) {
         
@@ -148,10 +181,23 @@
 - (void)keyboardWillChange:(NSNotification *)notification {
     double v=[notification.userInfo[UIKeyboardFrameEndUserInfoKey] CGRectValue].size.height;
     
+
     _topSpaceTomainView.constant=-(1)*v;
     
     
+   
     
+}
+- (BOOL)textViewShouldBeginEditing:(UITextView *)textView
+{
+    if([textView.text containsString:@"Enter"])
+    {
+        textView.text=@"";
+    }
+
+    
+   
+    return YES;
 }
 
 @end

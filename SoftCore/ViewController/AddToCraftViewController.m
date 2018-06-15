@@ -12,6 +12,7 @@
 #import <SDWebImage/UIImageView+WebCache.h>
 #import "Store.h"
 #import "ShopListViewController.h"
+#import <AFNetworking.h>
 
 @interface AddToCraftViewController ()
 {
@@ -25,6 +26,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     currentArrayforSection3=[[NSMutableArray alloc]init];
+      [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(keyboardWillChange:) name:UIKeyboardWillChangeFrameNotification object:nil];
     // Do any additional setup after loading the view.
 }
 
@@ -152,7 +154,7 @@
     
     
     dispatch_after(dispatch_time(DISPATCH_TIME_NOW, 0.1 * NSEC_PER_SEC), dispatch_get_main_queue(), ^{
-        currentArrayforSection3=[[NSMutableArray alloc]initWithArray:[[Store sharedStore]getArray]];
+        currentArrayforSection3=[[NSMutableArray alloc]initWithArray:[[Store sharedStore]getArrayforCraft]];
         [self->_tableViewForData reloadData];
     });
 }
@@ -162,5 +164,48 @@
 }
 - (IBAction)goToPreviousView:(id)sender {
     [self dismissViewControllerAnimated:true completion:nil];
+}
+- (void)keyboardWillChange:(NSNotification *)notification {
+    double v=[notification.userInfo[UIKeyboardFrameEndUserInfoKey] CGRectValue].size.height;
+    
+    _topSpaceTomainView.constant=-(1)*v;
+    
+    
+    
+    
+}
+- (IBAction)gotoOder:(id)sender
+{
+    NSURLSessionConfiguration *configuration = [NSURLSessionConfiguration defaultSessionConfiguration];
+    
+    AFHTTPSessionManager *manager = [[AFHTTPSessionManager alloc] initWithSessionConfiguration:configuration];
+    
+    
+    
+    manager.requestSerializer = [AFHTTPRequestSerializer serializer];
+    manager.responseSerializer = [AFJSONResponseSerializer serializer];
+    
+    NSMutableDictionary *parameters =  [[NSMutableDictionary alloc]init];
+    
+    [parameters setValue:_textView1.text forKey:@"name"];
+    [parameters setValue:_textView2.text forKey:@"email"];
+    [parameters setValue:_textView3.text forKey:@"number"];
+    [parameters setValue:_textView4.text forKey:@"address"];
+    
+    for(int i=0;i<currentArrayforSection3.count;i++)
+    {
+        NSDictionary *dic=currentArrayforSection3[i];
+        [parameters setValue:[NSString stringWithFormat:@"%d",1]forKey:[dic objectForKey:@"title"]];
+    }
+    
+    
+    [manager POST:@"https://www.softrockgroup.com/single_product_order" parameters:parameters success:^(NSURLSessionDataTask *task, id responseObject) {
+        
+        NSLog(@"%@",[responseObject description]);
+        
+    } failure:^(NSURLSessionDataTask *task, NSError *error) {
+        
+        NSLog(@"%@",[error localizedDescription]);
+    }];
 }
 @end
